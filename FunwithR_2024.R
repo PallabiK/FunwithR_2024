@@ -109,7 +109,7 @@ ggplot(plat5)+
   geom_bar( aes(x=language, y=n), stat="identity", fill = c("maroon", "darkgreen", "violet"), color='black', alpha=1) +
   scale_y_continuous(breaks = seq(0, 110, by=20), limits=c(0,110))+
   theme_bw() + ylab("No. of shows") + 
-  xlab("Types (2024)") + theme_bw()+
+  xlab("Languages (2024)") + theme_bw()+
   theme(axis.title = element_text(face="bold"),
         axis.text.x=element_text(face="bold", color='black', angle = 0, vjust = 0.5, hjust=0.5),
         axis.text.y=element_text(face="bold", color='black'))
